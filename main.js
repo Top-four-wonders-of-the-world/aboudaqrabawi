@@ -139,11 +139,51 @@ $('.rome4').css('color','#bccad6')
 
 $(".colosseum").append('<button id="next4">next</button>')
 $(".colosseum").append('<button id="return3">return</button>')
+$(".seven-wonders").append('<div class="extra" style="display: none"></div>')
+
+
+$(".extra").append("where are you going after corona ends <br> <br><input id='nameId' <input/> ")
+
+
+
+var buttonE=$('<button class="name"> lets go </button>');
+
+$(".extra").append(buttonE);
+
+$(".name").click(function (){
+
+	var x=$("#nameId").val();
+
+	
+	if (x.length===0){
+		alert ("You have to write your name!")
+	}
+	else
+	$('<p id="place"> </p>').append(x + " is going  nowhere"  ).appendTo(".extra")
+   $(".extra").append('<img id="corona" src="https://pbs.twimg.com/media/EYJf-gTXgAEugwl.jpg"/>')
+   
+    $("#nameId").val('')
+})
+$(".extra").append('<br>')
+$(".extra").append('<br>')
+$(".extra").append('<br>')
+$(".extra").append('<br>')
+$(".extra").append('<br>')
+$(".extra").append('<button id="final0">next</button>')
+
+
+
+
 $(".seven-wonders").append('<div class="end" style="display: none"></div>')
 $('.end').append('<p id="end-card">Thats it ! We hope you enjoyed it! Thankyou!</p>')
 $(".end").append('<button id="final">back to home page</button>')
 
 $(".colosseum").append('<br>')
+
+
+
+
+
 $('#start').click(function(){
 		$(".welcome").hide()
 		$(".Petra-info").show()
@@ -167,6 +207,11 @@ $('#start').click(function(){
 		
 		$(".the-great-wall").hide()
 		$('.Taj-Mahal3').show()
+})
+	$('#final0').click(function(){
+		
+		$(".extra").hide()
+		$('.end').show()
 })
 	$('#final').click(function(){
 		
@@ -195,7 +240,7 @@ $('#next4').click(function(){
 		
 		$('.colosseum').hide()
 		
-		$('.end').show()
+		$('.extra').show()
 })
 
 
