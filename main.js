@@ -136,8 +136,12 @@ $('.rome1').css('color','#bccad6')
 $('.rome2').css('color','#bccad6')
 $('.rome3').css('color','#bccad6')
 $('.rome4').css('color','#bccad6')
-$(".colosseum").append('<button id="return4">return</button>')
-$(".colosseum").append('<button id="return3">back to the home page</button>')
+
+$(".colosseum").append('<button id="next4">next</button>')
+$(".colosseum").append('<button id="return3">return</button>')
+$(".seven-wonders").append('<div class="end" style="display: none"></div>')
+$('.end').append('<p id="end-card">Thats it ! We hope you enjoyed it! Thankyou!</p>')
+$(".end").append('<button id="final">back to home page</button>')
 
 $(".colosseum").append('<br>')
 $('#start').click(function(){
@@ -164,13 +168,13 @@ $('#start').click(function(){
 		$(".the-great-wall").hide()
 		$('.Taj-Mahal3').show()
 })
-	$('#return3').click(function(){
+	$('#final').click(function(){
 		
-		$(".colosseum").hide()
+		$(".end").hide()
 		$('.welcome').show()
 })
 
-	$('#return4').click(function(){
+	$('#return3').click(function(){
 		
 		$(".colosseum").hide()
 		$('.the-great-wall').show()
@@ -186,6 +190,12 @@ $('#next3').click(function(){
 		$('.the-great-wall').hide()
 		
 		$('.colosseum').show()
+})
+$('#next4').click(function(){
+		
+		$('.colosseum').hide()
+		
+		$('.end').show()
 })
 
 
