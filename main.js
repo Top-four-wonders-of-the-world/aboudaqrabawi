@@ -142,7 +142,7 @@ $(".colosseum").append('<button id="return3">return</button>')
 $(".seven-wonders").append('<div class="extra" style="display: none"></div>')
 
 
-$(".extra").append("where are you going after corona ends <br> <br><input id='nameId' <input/> ")
+$(".extra").append("where are you going <br> <br><input id='nameId' <input/> ")
 
 
 
