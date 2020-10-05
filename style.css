@@ -1,4 +1,181 @@
 h1{
 	text-align: center;
-	
+
+}
+h1{
+	color:#bccad6;
+}
+.seven-wonders{
+	background-color: #36486b;
+}
+.great-wall{
+	text-align: right;
+}
+#wel{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color:#618685;
+  color: #bccad6;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center
+
+}
+#start{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color:#618685;
+  color: #bccad6;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center
+
+}
+#next{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color:#fefbd8;
+  color:  #36486b;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center
+
+}
+#return{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color: #618685;
+  color:  #36486b;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center
+
+}
+#next2{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color: #fefbd8;
+  color:  #36486b;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center
+
+}#next3{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color: #fefbd8;
+  color:  #36486b;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center
+
+}#return1{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color: #618685;
+  color:  #36486b;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center
+
+}#return2{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color: #618685;
+  color:  #36486b;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center
+
+}
+#return3{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color:#618685;
+  color:  #36486b;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center
+
+}
+#return4{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color:#618685;
+  color:  #36486b;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center
+
+}
+
+
+#petra1{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color:  #618685;
+  color: #bccad6;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center
+
+}
+
+#taj-mahal{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color:  #618685;
+  color: #bccad6;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center
+
+}
+#great{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color:  #618685;
+  color: #bccad6;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center
+
+}
+#col{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color:  #618685;
+  color: #bccad6;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center
+
 }
