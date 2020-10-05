@@ -1,9 +1,80 @@
 h1{
 	text-align: center;
-
+ 
 }
+#taj2{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#taj3{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#taj4{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#taj5{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#colosseum1{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#colosseum2{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#colosseum3{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#colosseum4{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#colosseum5{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#video-china{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#picture-of-great-wall{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 h1{
 	color:#bccad6;
+}
+#petro{
+	color: #bccad6;
 }
 .seven-wonders{
 	background-color: #36486b;
